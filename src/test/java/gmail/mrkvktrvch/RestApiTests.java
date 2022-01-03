@@ -18,7 +18,7 @@ public class RestApiTests {
 
     @Test
     void createUserTest() {
-         String data = "{ \"name\": \"morpheus\", \"job\": \"leader\" }";
+        String data = "{ \"name\": \"morpheus\", \"job\": \"leader\" }";
 
         given()
                 .contentType(JSON)
